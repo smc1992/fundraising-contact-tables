@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/src/assets/images/hero-background.webp)',
+            backgroundImage: 'url(/images/hero-background.webp)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
             <div className="mb-8">
               <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 inline-block">
                 <img 
-                  src="/src/assets/images/logo.webp" 
+                  src="/images/logo.webp" 
                   alt="Contact Tables Logo" 
                   className="h-20 mx-auto"
                 />
@@ -80,7 +80,7 @@ const HomePage: React.FC = () => {
               
               <div className="relative">
                 <img
-                  src="/src/assets/images/Unterstützer.jpg"
+                  src="/images/Unterstützer.jpg"
                   alt="Menschen lernen sich am Restauranttisch kennen"
                   className="rounded-xl shadow-lg w-full object-cover object-top"
                 />
@@ -389,7 +389,7 @@ const HomePage: React.FC = () => {
               
               <div className="relative">
                 <img 
-                  src="/src/assets/images/Menschen am Restauranttisch.jpg" 
+                  src="/images/Menschen am Restauranttisch.jpg" 
                   alt="Community von Contact-tables"
                   className="rounded-xl shadow-lg w-full object-cover object-top"
                 />
@@ -414,7 +414,7 @@ const HomePage: React.FC = () => {
               <div className="mb-4">
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 inline-block">
                   <img 
-                    src="/src/assets/images/logo.webp" 
+                    src="/images/logo.webp" 
                     alt="Contact Tables Logo" 
                     className="h-16"
                   />

@@ -10,7 +10,7 @@ const DankePage: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4">
               <img 
-                src="https://contact-tables.org/images/logo/logo/Contact%20Tables%20RGB%20transparent.webp" 
+                src="/images/logo.webp" 
                 alt="Contact Tables Logo" 
                 className="h-10 sm:h-12"
               />
@@ -33,7 +33,7 @@ const DankePage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/src/assets/images/danke-hero.jpg)',
+            backgroundImage: 'url(/images/danke-hero.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -182,7 +182,7 @@ const DankePage: React.FC = () => {
               
               <div className="relative">
                 <img 
-                  src="/src/assets/images/Newsletter.jpg"
+                  src="/images/Newsletter.jpg"
                   alt="Newsletter und Updates"
                   className="rounded-xl shadow-lg w-full object-cover object-top"
                 />
@@ -279,21 +279,6 @@ const DankePage: React.FC = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="col-span-1 md:col-span-2">
-              <div className="mb-4">
-                <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 inline-block">
-                  <img 
-                    src="/src/assets/images/logo.webp" 
-                    alt="Contact Tables Logo" 
-                    className="h-16"
-                  />
-                </div>
-              </div>
-              <p className="text-gray-300 mb-4">
-                Verbindet Menschen anonym am Restauranttisch für authentische Gespräche und neue Begegnungen.
-              </p>
-            </div>
             
             <div>
               <h4 className="text-lg font-semibold mb-4">Rechtliches</h4>
