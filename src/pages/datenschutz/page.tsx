@@ -10,18 +10,18 @@ const DatenschutzPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row justify-between items-center py-4 gap-4">
             <div className="flex items-center">
               <img 
-                src="https://contact-tables.org/images/logo/logo/Contact%20Tables%20RGB%20transparent.webp" 
+                src="/images/logo.webp" 
                 alt="Contact Tables Logo" 
                 className="h-10 sm:h-12 mr-4"
               />
             </div>
             <nav>
-              <a 
-                href="/" 
+              <button 
+                onClick={() => window.REACT_APP_NAVIGATE('/')}
                 className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer whitespace-nowrap text-sm sm:text-base"
               >
                 Zurück zur Startseite
-              </a>
+              </button>
             </nav>
           </div>
         </div>
@@ -175,7 +175,7 @@ const DatenschutzPage: React.FC = () => {
               <div className="mb-4">
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 inline-block">
                   <img 
-                    src="https://contact-tables.org/images/logo/logo/Contact%20Tables%20RGB%20transparent.webp" 
+                    src="/images/logo.webp" 
                     alt="Contact Tables Logo" 
                     className="h-16"
                   />
@@ -190,14 +190,20 @@ const DatenschutzPage: React.FC = () => {
               <h4 className="text-lg font-semibold mb-4">Rechtliches</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/impressum" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                  <button 
+                    onClick={() => window.REACT_APP_NAVIGATE('/impressum')}
+                    className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+                  >
                     Impressum
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a href="/datenschutz" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
+                  <button 
+                    onClick={() => window.REACT_APP_NAVIGATE('/datenschutz')}
+                    className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+                  >
                     Datenschutz
-                  </a>
+                  </button>
                 </li>
               </ul>
             </div>
