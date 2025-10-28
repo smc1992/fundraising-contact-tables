@@ -279,30 +279,28 @@ const DankePage: React.FC = () => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Rechtliches</h4>
-              <ul className="space-y-2">
-                <li>
-                  <button 
-                    onClick={() => window.REACT_APP_NAVIGATE('/impressum')}
-                    className="text-gray-300 hover:text-white transition-colors cursor-pointer"
-                  >
-                    Impressum
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => window.REACT_APP_NAVIGATE('/datenschutz')}
-                    className="text-gray-300 hover:text-white transition-colors cursor-pointer"
-                  >
-                    Datenschutz
-                  </button>
-                </li>
-              </ul>
-            </div>
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Rechtliches</h4>
+            <ul className="space-y-2">
+              <li>
+                <button
+                  onClick={() => window.REACT_APP_NAVIGATE('/impressum')}
+                  className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+                >
+                  Impressum
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => window.REACT_APP_NAVIGATE('/datenschutz')}
+                  className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+                >
+                  Datenschutz
+                </button>
+              </li>
+            </ul>
           </div>
-          
+
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Contact Tables. Alle Rechte vorbehalten.
