@@ -102,7 +102,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Die Herausforderung */}
-      <section className="py-24 bg-gray-50">
+      <section className="pt-4 pb-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-12">
@@ -183,7 +183,7 @@ const HomePage: React.FC = () => {
 
             <div className="bg-white p-8 rounded-xl shadow-lg mb-12">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Mit Eurer Unterstützung können wir:
+                Mit deiner Unterstützung können wir:
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
                 <div className="flex items-start">
@@ -221,7 +221,7 @@ const HomePage: React.FC = () => {
                 Gemeinsam bringen wir die Idee voran – und zeigen: Essen verbindet!
               </p>
               <p className="text-xl text-gray-900 font-bold" style={{color: '#d3d800'}}>
-                Und Du bist ein Teil davon.
+                Und du bist ein Teil davon.
               </p>
             </div>
           </div>
@@ -307,9 +307,6 @@ const HomePage: React.FC = () => {
 
             <div className="bg-white/95 backdrop-blur-sm p-12 rounded-xl shadow-lg max-w-2xl mx-auto">
               <div className="mb-8">
-                <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style={{backgroundColor: '#d3d800'}}>
-                  <i className="ri-heart-fill text-3xl text-black"></i>
-                </div>
                 <h3 className="text-2xl font-bold mb-4" style={{color: '#d3d800'}}>
                   Jeder Beitrag zählt
                 </h3>
@@ -327,7 +324,6 @@ const HomePage: React.FC = () => {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
               >
-                <i className="ri-heart-line mr-3"></i>
                 Jetzt unterstützen
               </button>
               
@@ -344,7 +340,7 @@ const HomePage: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-8">
-              Wie wir unsere Unterstützer einbeziehen
+              Wie wir unsere Unterstützer:innen einbeziehen
             </h2>
             
             <p className="text-xl text-gray-600 mb-12">
@@ -421,7 +417,7 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-300 mb-4">
-                Verbindet Menschen anonym am Restauranttisch für authentische Gespräche und neue Begegnungen.
+                Verbindet Menschen am Restauranttisch für authentische Gespräche und neue Begegnungen.
               </p>
             </div>
             

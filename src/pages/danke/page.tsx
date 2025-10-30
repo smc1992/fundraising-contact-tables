@@ -12,7 +12,8 @@ const DankePage: React.FC = () => {
               <img 
                 src="/images/logo.webp" 
                 alt="Contact Tables Logo" 
-                className="h-10 sm:h-12"
+                className="h-10 sm:h-12 cursor-pointer"
+                onClick={() => window.REACT_APP_NAVIGATE('/')}
               />
             </div>
             <button 
@@ -33,7 +34,7 @@ const DankePage: React.FC = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/images/danke-hero.jpg)',
+            backgroundImage: 'url(/images/Restaurant-Dankeseite.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -43,11 +44,6 @@ const DankePage: React.FC = () => {
         
         <div className="container mx-auto px-4 relative z-20 text-center text-white">
           <div className="max-w-4xl mx-auto">
-            <div className="mb-8">
-              <div className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6" style={{backgroundColor: '#d3d800'}}>
-                <i className="ri-heart-fill text-4xl text-black"></i>
-              </div>
-            </div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
               Herzlichen Dank!
@@ -72,6 +68,23 @@ const DankePage: React.FC = () => {
         </div>
       </section>
 
+      {/* Warum Digistore24 */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              Warum läuft die Unterstützung über Digistore24?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Damit alles rechtlich und steuerlich sauber abläuft, wickeln wir die Beiträge über Digistore24 ab – eine deutsche Plattform, die sich um die korrekte Abrechnung, Zahlungsabwicklung und die gesetzlich vorgeschriebene Umsatzsteuer kümmert.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Da Digistore24 nur „digitale Produkte“ verwalten kann, erhältst du symbolisch unser kleines Unterstützer:innen-Paket als Dankeschön – bestehend aus einem digitalen PDF-Gruß und einem Einblick hinter die Kulissen von Contact-tables.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Deine Wirkung */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4">
@@ -81,8 +94,9 @@ const DankePage: React.FC = () => {
             </h2>
             
             <p className="text-xl text-gray-600 mb-16">
-              Mit deiner Spende hilfst du dabei, dass noch mehr Menschen erfahren: 
-              <strong> Sie müssen nicht allein essen!</strong>
+              Mit deiner Spende hilfst du mit,<br />
+              dass mehr Menschen erleben dürfen, wie schön es ist,<br />
+              gemeinsam zu essen !
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -112,10 +126,10 @@ const DankePage: React.FC = () => {
 
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4" style={{backgroundColor: '#d3d800'}}>
-                  <i className="ri-heart-line text-2xl text-black"></i>
+                  <i className="ri-chat-1-line text-2xl text-black"></i>
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Echte Begegnungen</h3>
-                <p className="text-gray-600">Menschen finden Verbindung statt Einsamkeit</p>
+                <p className="text-gray-600">Menschen finden Verbindung – am Tisch, im Gespräch, im Miteinander</p>
               </div>
             </div>
 
@@ -221,7 +235,7 @@ const DankePage: React.FC = () => {
             </h2>
             
             <p className="text-xl mb-12">
-              Du kennst Menschen, die auch nicht gern allein essen? 
+              Du kennst Menschen, die auch nicht gern allein essen? <br />
               Erzähl ihnen von Contact-tables!
             </p>
 
@@ -234,17 +248,6 @@ const DankePage: React.FC = () => {
                 Teile Contact-tables mit Freunden, Familie oder in sozialen Netzwerken – 
                 und hilf dabei, dass niemand mehr allein essen muss.
               </p>
-              
-              <button 
-                onClick={() => window.REACT_APP_NAVIGATE('/')}
-                className="text-black font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg whitespace-nowrap cursor-pointer"
-                style={{backgroundColor: '#d3d800'}}
-                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
-                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
-              >
-                <i className="ri-share-line mr-2"></i>
-                Zur Startseite
-              </button>
             </div>
           </div>
         </div>
@@ -255,7 +258,7 @@ const DankePage: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Entdecke Contact Tables
+              Entdecke Contact-tables®
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Erfahre mehr über unsere Mission und wie du Teil der Community werden kannst.
