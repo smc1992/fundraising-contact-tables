@@ -68,23 +68,6 @@ const DankePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Warum Digistore24 */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Warum läuft die Unterstützung über Digistore24?
-            </h2>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Damit alles rechtlich und steuerlich sauber abläuft, wickeln wir die Beiträge über Digistore24 ab – eine deutsche Plattform, die sich um die korrekte Abrechnung, Zahlungsabwicklung und die gesetzlich vorgeschriebene Umsatzsteuer kümmert.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Da Digistore24 nur „digitale Produkte“ verwalten kann, erhältst du symbolisch unser kleines Unterstützer:innen-Paket als Dankeschön – bestehend aus einem digitalen PDF-Gruß und einem Einblick hinter die Kulissen von Contact-tables.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Deine Wirkung */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4">

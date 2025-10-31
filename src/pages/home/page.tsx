@@ -1,7 +1,8 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 
 const HomePage: React.FC = () => {
+  const [showTooltip, setShowTooltip] = useState(false);
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -305,7 +306,7 @@ const HomePage: React.FC = () => {
               du unterstützt eine Idee, die echte Begegnungen wieder möglich macht.
             </p>
 
-            <div className="bg-white/95 backdrop-blur-sm p-12 rounded-xl shadow-lg max-w-2xl mx-auto">
+            <div className="bg-white/95 backdrop-blur-sm p-12 rounded-xl shadow-lg max-w-2xl mx-auto relative">
               <div className="mb-8">
                 <h3 className="text-2xl font-bold mb-4" style={{color: '#d3d800'}}>
                   Jeder Beitrag zählt
@@ -330,6 +331,26 @@ const HomePage: React.FC = () => {
               <p className="text-sm text-gray-600 mt-4">
                 Sichere Spende über Digistore24
               </p>
+              
+              <div className="mt-4 text-center">
+                <span 
+                  className="text-sm text-gray-600 cursor-pointer underline"
+                  onMouseEnter={() => setShowTooltip(true)}
+                  onMouseLeave={() => setShowTooltip(false)}
+                >
+                  Warum Digistore24?
+                </span>
+                {showTooltip && (
+                  <div className="absolute mt-2 p-4 bg-white border border-gray-300 rounded-lg shadow-lg max-w-sm z-10">
+                    <p className="text-sm text-gray-700">
+                      Damit alles rechtlich und steuerlich sauber abläuft, wickeln wir die Beiträge über Digistore24 ab – eine deutsche Plattform, die sich um die korrekte Abrechnung, Zahlungsabwicklung und die gesetzlich vorgeschriebene Umsatzsteuer kümmert.
+                    </p>
+                    <p className="text-sm text-gray-700 mt-2">
+                      Da Digistore24 nur „digitale Produkte“ verwalten kann, erhältst du symbolisch unser kleines Unterstützer:innen-Paket als Dankeschön – bestehend aus einem digitalen PDF-Gruß und einem Einblick hinter die Kulissen von Contact-tables.
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
