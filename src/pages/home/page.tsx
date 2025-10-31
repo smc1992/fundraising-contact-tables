@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Die Idee */}
-      <section className="py-24 bg-white">
+      <section className="py-12 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
@@ -103,7 +103,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Die Herausforderung */}
-      <section className="pt-4 pb-24 bg-gray-50">
+      <section className="pt-4 pb-12 md:pb-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-12">
@@ -159,7 +159,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Die Lösung */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-12 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-12">
@@ -230,7 +230,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Einsatz der Gelder */}
-      <section className="py-24 bg-white">
+      <section className="py-12 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
@@ -294,7 +294,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Support CTA */}
-      <section id="support-cta" className="py-24" style={{background: 'linear-gradient(135deg, #d3d800 0%, #a3b000 100%)'}}>
+      <section id="support-cta" className="py-12 md:py-24" style={{background: 'linear-gradient(135deg, #d3d800 0%, #a3b000 100%)'}}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-black">
             <h2 className="text-4xl md:text-5xl font-bold mb-8">
@@ -357,7 +357,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Community */}
-      <section className="py-24 bg-white">
+      <section className="py-12 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-8">
