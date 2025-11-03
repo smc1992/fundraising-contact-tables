@@ -316,7 +316,7 @@ const HomePage: React.FC = () => {
                   Hilf uns dabei, dass mehr Menschen erleben dürfen, wie schön es ist, gemeinsam zu essen !
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  Mit deinem Unterstützungsbetrag erhältst du unser digitales Dankeschön Paket – mit persönlichen Einblicken in die Idee, Entstehung und Vision von Contact tables®.
+                  Mit dem Kauf des digitalen Dankeschön-Pakets trägst du dazu bei, die Idee von contact-tables ® in die welt zu bringen - für mehr gemeinsames Essen und echte Begegnungen.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Dein Beitrag fließt direkt in Werbung, Restaurant Partnerschaften und den Ausbau unserer Community.
