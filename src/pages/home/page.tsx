@@ -312,9 +312,13 @@ const HomePage: React.FC = () => {
                   Jeder Beitrag zählt
                 </h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Hilf uns dabei, dass niemand mehr allein essen muss. 
-                  Deine Spende fließt direkt in Werbung, Restaurant-Partnerschaften 
-                  und den Ausbau unserer Community.
+                  Hilf uns dabei, dass mehr Menschen erleben dürfen, wie schön es ist, gemeinsam zu essen !
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                  Mit deinem Unterstützungsbetrag erhältst du unser digitales Dankeschön Paket – mit persönlichen Einblicken in die Idee, Entstehung und Vision von Contact tables®.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Dein Beitrag fließt direkt in Werbung, Restaurant Partnerschaften und den Ausbau unserer Community.
                 </p>
               </div>
               
@@ -329,7 +333,7 @@ const HomePage: React.FC = () => {
               </button>
               
               <p className="text-sm text-gray-600 mt-4">
-                Sichere Spende über Digistore24
+                Sichere Zahlung über Digistore24
               </p>
               
               <div className="mt-4 text-center">
