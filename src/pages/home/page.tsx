@@ -20,7 +20,7 @@ const HomePage: React.FC = () => {
         
         <div className="container mx-auto px-4 relative z-20 text-center text-white">
           <div className="max-w-4xl mx-auto">
-            <div className="mb-4">
+            <div className="mb-12">
               <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 inline-block">
                 <img 
                   src="/images/logo.webp" 
