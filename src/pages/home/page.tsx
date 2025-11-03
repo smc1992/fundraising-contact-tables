@@ -32,7 +32,8 @@ const HomePage: React.FC = () => {
             
             <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight">
               <span className="block">Unterstütze die Vision</span>
-              <span className="block">von Contact-tables®</span>
+              <span className="block">von Contact-tables® durch den Kauf</span>
+              <span className="block">des digitalen Dankeschön-Pakets</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -329,7 +330,7 @@ const HomePage: React.FC = () => {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
               >
-                Jetzt digitales Dankeschön Paket erhalten
+                Jetzt digitales Dankeschön Paket kaufen
               </button>
               
               <p className="text-sm text-gray-600 mt-4">
