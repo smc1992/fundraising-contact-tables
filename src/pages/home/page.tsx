@@ -324,7 +324,7 @@ const HomePage: React.FC = () => {
               
               <button 
                 onClick={() => window.open('https://digistore24.com/product/contact-tables-support', '_blank')}
-                className="w-full text-black font-bold py-6 px-8 rounded-lg text-xl transition-all transform hover:scale-105 shadow-lg whitespace-nowrap cursor-pointer"
+                className="w-full text-black font-bold py-6 px-8 rounded-lg text-lg md:text-xl transition-all transform hover:scale-105 shadow-lg cursor-pointer"
                 style={{backgroundColor: '#d3d800'}}
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
