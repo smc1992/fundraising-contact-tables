@@ -330,7 +330,7 @@ const HomePage: React.FC = () => {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
               >
-                Jetzt digitales Dankeschön Paket kaufen
+                Jetzt digitales-Dankeschön Paket
               </button>
               
               <p className="text-sm text-gray-600 mt-4">
