@@ -316,7 +316,7 @@ const HomePage: React.FC = () => {
                   Hilf uns dabei, dass mehr Menschen erleben dürfen, wie schön es ist, gemeinsam zu essen !
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  Mit dem Kauf des digitalen Dankeschön-Pakets trägst du dazu bei, die Idee von contact-tables ® in die welt zu bringen - für mehr gemeinsames Essen und echte Begegnungen.
+                  Mit dem Kauf des digitalen Dankeschön-Pakets trägst du dazu bei, die Idee von Contact-tables ® in die Welt zu bringen - für mehr gemeinsames Essen und echte Begegnungen.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   Dein Beitrag fließt direkt in Werbung, Restaurant Partnerschaften und den Ausbau unserer Community.
@@ -330,7 +330,7 @@ const HomePage: React.FC = () => {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
               >
-                Jetzt digitales-Dankeschön Paket
+                Jetzt digitales Dankeschön-Paket kaufen
               </button>
               
               <p className="text-sm text-gray-600 mt-4">
