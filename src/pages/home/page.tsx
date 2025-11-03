@@ -351,7 +351,8 @@ const HomePage: React.FC = () => {
                       Damit alles rechtlich und steuerlich sauber abläuft, wickeln wir die Beiträge über Digistore24 ab – eine deutsche Plattform, die sich um die korrekte Abrechnung, Zahlungsabwicklung und die gesetzlich vorgeschriebene Umsatzsteuer kümmert.
                     </p>
                     <p className="text-sm text-gray-700 mt-2">
-                      Da Digistore24 nur „digitale Produkte“ verwalten kann, erhältst du symbolisch unser kleines Unterstützer:innen-Paket als Dankeschön – bestehend aus einem digitalen PDF-Gruß und einem Einblick hinter die Kulissen von Contact-tables.
+                      Da Digistore24 ausschließlich den Verkauf digitaler Produkte abwickelt, erhältst du hier unser digitales Dankeschön-Paket als PDF zum Downloaden.
+                      Es enthält einen persönlichen Gruß und einen kleinen Einblick hinter die Kulissen von Contact tables®️ – als kleines Dankeschön für alle, die unsere Vision unterstützen
                     </p>
                   </div>
                 )}
