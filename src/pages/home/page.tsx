@@ -32,8 +32,8 @@ const HomePage: React.FC = () => {
             
             <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight">
               <span className="block">Unterstütze die Vision</span>
-              <span className="block text-3xl md:text-5xl">von Contact-tables® durch den Kauf</span>
-              <span className="block text-3xl md:text-5xl">des digitalen Dankeschön-Pakets</span>
+              <span className="block">von Contact-tables®</span>
+              <span className="block text-3xl md:text-5xl">durch den Kauf des digitalen Dankeschön-Pakets</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
