@@ -40,16 +40,6 @@ const HomePage: React.FC = () => {
               Dein Beitrag hilft, diese Vision in die Welt zu tragen.<br />
               Weil's gemeinsam besser schmeckt!
             </p>
-            
-            <button 
-              onClick={() => document.getElementById('support-cta')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-black font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg whitespace-nowrap cursor-pointer"
-              style={{backgroundColor: '#d3d800'}}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
-            >
-              Jetzt unterstützen
-            </button>
           </div>
         </div>
       </section>
