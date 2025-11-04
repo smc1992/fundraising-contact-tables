@@ -314,7 +314,7 @@ const HomePage: React.FC = () => {
               </div>
               
               <button 
-                onClick={() => window.open('https://digistore24.com/product/contact-tables-support', '_blank')}
+                onClick={() => window.open('https://www.checkout-ds24.com/product/644296', '_blank')}
                 className="w-full text-black font-bold py-6 px-8 rounded-lg text-lg md:text-xl transition-all transform hover:scale-105 shadow-lg cursor-pointer"
                 style={{backgroundColor: '#d3d800'}}
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
