@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
             
             <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight">
               <span className="block">Unterstütze die Vision</span>
-              <span className="block">von Contact-tables®</span>
+              <span className="block mb-4">von Contact-tables®</span>
               <span className="block text-3xl md:text-5xl">durch den Kauf des digitalen Dankeschön-Pakets</span>
             </h1>
             
