@@ -439,12 +439,12 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/images/logo.webp" 
                     alt="Contact Tables Logo" 
-                    className="h-16"
+                    className="h-12"
                   />
                 </div>
               </div>
               <p className="text-gray-300 mb-4">
-                Verbindet Menschen am Restauranttisch für authentische Gespräche und neue Begegnungen.
+                Verbindet Menschen am Restauranttisch für echte Gespräche<br />und neue Begegnungen.
               </p>
             </div>
             
