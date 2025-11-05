@@ -91,7 +91,7 @@ const HomePage: React.FC = () => {
               
               <div className="relative">
                 <img
-                  src="/images/Unterstützer.jpg"
+                  src="/images/contact-tables Glasbild.webp"
                   alt="Menschen lernen sich am Restauranttisch kennen"
                   className="rounded-xl shadow-lg w-full object-cover object-top"
                 />
