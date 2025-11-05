@@ -44,6 +44,22 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-12 md:py-24 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <video
+              controls
+              poster="/images/Anette Rapp Thumbmail.png"
+              className="w-full rounded-xl shadow-lg"
+            >
+              <source src="/video1436425203 - Trim.mp4" type="video/mp4" />
+              Ihr Browser unterstützt das Video-Tag nicht.
+            </video>
+          </div>
+        </div>
+      </section>
+
       {/* Die Idee */}
       <section className="py-12 md:py-24 bg-white">
         <div className="container mx-auto px-4">
