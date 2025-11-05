@@ -418,7 +418,7 @@ const HomePage: React.FC = () => {
               
               <div className="relative">
                 <img 
-                  src="/images/Menschen am Restauranttisch.jpg" 
+                  src="/images/Frauen am Tisch.webp" 
                   alt="Community von Contact-tables"
                   className="rounded-xl shadow-lg w-full object-cover object-top"
                 />
