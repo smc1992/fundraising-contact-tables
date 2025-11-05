@@ -48,6 +48,9 @@ const HomePage: React.FC = () => {
       <section className="py-12 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold text-gray-900 mb-12">
+              Unsere Gründerin stellt sich vor
+            </h2>
             <video
               controls
               poster="/images/Anette Rapp Thumbmail.png"
