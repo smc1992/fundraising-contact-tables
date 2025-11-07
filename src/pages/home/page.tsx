@@ -178,8 +178,21 @@ const HomePage: React.FC = () => {
             
             <div className="bg-white p-8 rounded-xl shadow-lg mb-12">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Mit Contacttables haben wir den Raum für echte Begegnungen geschaffen –
-                aber jetzt braucht es die nächste Etappe:
+                Mit Contact-tables haben wir den Raum für echte Begegnungen geschaffen
+              </p>
+              
+              <button 
+                onClick={() => window.open('https://contact-tables.org', '_blank')}
+                className="text-black font-bold py-3 px-6 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg cursor-pointer mb-6"
+                style={{backgroundColor: '#d3d800'}}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b8c100'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#d3d800'}
+              >
+                Hier gehts zur Webseite
+              </button>
+              
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                – aber jetzt braucht es die nächste Etappe:
               </p>
               <p className="text-xl text-gray-900 font-semibold mb-6 leading-relaxed">
                 Sichtbarkeit, Reichweite und ein starkes Netzwerk an Restaurants.
