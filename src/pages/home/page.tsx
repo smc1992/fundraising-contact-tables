@@ -188,7 +188,7 @@ const HomePage: React.FC = () => {
             
             <div className="bg-white p-8 rounded-xl shadow-lg mb-12">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Mit <a href="https://contact-tables.org" target="_blank" className="text-blue-600 hover:text-blue-800 underline">Contact-tables</a> haben wir den Raum für echte Begegnungen geschaffen
+                Mit <a href="https://contact-tables.org" target="_blank" className="underline hover:opacity-80" style={{color: '#d3d800'}}>Contact-tables</a> haben wir den Raum für echte Begegnungen geschaffen
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 – aber jetzt braucht es die nächste Etappe:
